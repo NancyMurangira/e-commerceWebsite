@@ -1,0 +1,23 @@
+.Text{
+  font-size: large;
+}
+.guide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px;
+  }
+  
+  .guide-content {
+    flex: 1;
+    text-align: left;
+    color: rgb(129, 127, 127);
+  }
+  
+  .guide-image {
+    flex:2; 
+  }
+  
+  .guide-image img {
+    max-width: 100%;
+  }
